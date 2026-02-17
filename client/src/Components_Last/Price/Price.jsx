@@ -230,6 +230,9 @@ if (amount === 0) {
                     <p className="price">
                       {" "}
                      <span className="price-value">
+                      <p className="Wrong_Price1">
+                      ₹ <span>49</span>
+                    </p>
   {(couponStatus === "valid" && CouponDetails?.category === "Trial") 
     ? `₹ ${Math.floor(9 - (9 * Discount) / 100)}` 
     : "₹ 9"}
@@ -249,7 +252,7 @@ if (amount === 0) {
                   >
 {(couponStatus === "valid" && CouponDetails.category === "Basic") &&
                     <p className="Wrong_Price">
-                      ₹ <span>599</span>
+                      ₹ <span>199</span>
                     </p>
 }
                     {/* <h3 className="plan-name">Pro Plan</h3> */}
@@ -274,7 +277,7 @@ if (amount === 0) {
                   >
                    {(couponStatus === "valid" && CouponDetails.category === "Super Saver") &&
                     <p className="Wrong_Price">
-                      ₹ <span>1799</span>
+                      ₹ <span>599</span>
                     </p>
 }
 

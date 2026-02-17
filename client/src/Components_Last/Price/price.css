@@ -100,10 +100,6 @@
   gap: 4vw;
 }
 
-.image-section {
-  /* flex-shrink: 0; */
-}
-
 .payment-illustration {
   height: 28vw;
   display: block;
@@ -179,6 +175,17 @@
 }
 
 .Wrong_Price span {
+  text-decoration: line-through;
+}
+
+.Wrong_Price1 {
+  font-size: 1.7vw;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 15px;
+}
+
+.Wrong_Price1 span {
   text-decoration: line-through;
 }
 
