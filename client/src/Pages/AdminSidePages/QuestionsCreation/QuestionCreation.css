@@ -1,0 +1,66 @@
+.interview {
+  padding: 30px 0;
+  background-color: #f9f6ff;
+  min-height: 85vh;
+  /* font-family: "Segoe UI", sans-serif; */
+}
+
+.interview h1 {
+  text-align: center;
+  color: #4b3c69; /* dark purple shade */
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.MuiTextField-root,
+.MuiFormControl-root {
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.MuiInputLabel-root {
+  color: #937CB4 !important;
+}
+
+.MuiOutlinedInput-root {
+  border-radius: 8px;
+}
+
+.MuiOutlinedInput-notchedOutline {
+  border-color: #d2c2e6;
+}
+
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #937CB4;
+}
+
+.MuiOutlinedInput-input {
+  padding: 12px;
+}
+
+.MuiButton-contained {
+  background-color: #937CB4 !important;
+  padding: 10px 30px;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.MuiButton-contained:hover {
+  background-color: #7e64a6 !important;
+}
+
+.MuiTypography-root {
+  margin-top: 10px;
+  font-size: 0.9rem;
+}
+.MuiFormControl-root {
+  height: 56px; /* same as TextField height by default */
+}
+
+.MuiSelect-select {
+  /* padding: 14px 3px !important; */
+  display: flex;
+  align-items: center;
+  width: 180px !important;
+}

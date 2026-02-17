@@ -1,0 +1,39 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Runtime
+pids
+*.pid
+*.seed
+*.tgz
+
+# Dependency directories
+node_modules
+
+# Build output
+dist
+dist-ssr
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# OS or IDE/editor
+.DS_Store
+.vscode/
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Test coverage
+coverage

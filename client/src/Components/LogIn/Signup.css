@@ -1,0 +1,392 @@
+.form-group label {
+  color: white;
+  font-size: 1.1vw;
+  font-family: 'Poppins', sans-serif
+    /* font-family: 'Calibri', sans-serif; */
+}
+
+
+.cartoon-touch {
+  width: 19vw;
+  margin-top: -2vw;
+  margin-left: 3vw;
+  height: auto;
+  position: absolute;
+}
+
+.logeimage {
+   width: fit-content;
+  height: 4vw;
+}
+
+.signup {
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.login-wrapper {
+  /* height: 97.5vh;
+  width: 99vw; */
+  display: flex;
+  /* justify-content: center; */
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+
+.login-box {
+  display: flex;
+  flex-direction: row;
+  gap: 11vw;
+  justify-content: center;
+  margin-left: 6vw;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1vw;
+}
+
+.heading h2 {
+    color: #ffffff;
+    font-size: 1.3vw;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.image_3 {
+  height: auto;
+  margin-top: 27.5vw;
+  width: 34.5vw;
+  margin-left: -6vw;
+  position: relative;
+}
+
+.star-text {
+  color: #c62828;
+  /* red */
+  position: relative;
+}
+
+.signup-right {
+  background-color: rgb(1, 1, 43);
+  border-radius: 2vw;
+  padding: 2vw;
+  /* padding-right: 2vw; */
+  /* max-width: 50vw; */
+  width: 30vw;
+  color: white;
+  /* margin-left: 10vw; */
+  /* height: 37vw; */
+  height: fit-content;
+  margin-top: -0.2vw;
+  /* font-family: 'Segoe UI', sans-serif; */
+  box-shadow: 0 1vw 3vw rgba(0, 0, 0, 0.15);
+}
+
+.signup-right p {
+  /* padding-bottom: 1vw; */
+  font-size: 1.1vw;
+  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Calibri', sans-serif; */
+  font-weight: 500;
+  margin: 0;
+}
+
+.pic1 {
+  width: 2vw;
+  transform: translate(0vw, -1vw);
+}
+
+.error-message2 {
+  text-align: center;
+  font-size: 1vw;
+  color: #b33a3a;
+  margin-top: -2vw;
+}
+
+.succesMsg_signup {
+  text-align: center;
+  font-size: 1vw;
+  color: white;
+}
+
+.para {
+  padding-top: 1vw;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.image1 {
+  width: 32vw;
+  height: 42vw;
+  margin-left: -8vw;
+  margin-top: -3vw;
+}
+
+.form-group {
+  margin-bottom: 0.5vw;
+  position: relative;
+}
+
+.image5 {
+  width: 2vw;
+  transform: translate(0vw, -1vw)
+}
+
+.form-group input {
+  width: 100%;
+  padding: 1vw 3.3vw 1vw 1vw;
+  border: 0.08vw solid #ccc;
+  border-radius: 0.8vw;
+  font-size: 1.2vw;
+  height: 3vw;
+  background-color: #f9f9f9;
+  color: #000;
+  box-sizing: border-box;
+}
+
+
+.btn-Sinup {
+  background-color: #10b153;
+  border: 1px solid #10b153;
+  color: #ffffff;
+  padding: .5vw 2vw;
+  font-size: 1.3vw;
+  font-weight: 500;
+  border-radius: 0.5vw;
+  cursor: pointer;
+  height: 2.5vw;
+  display: flex;
+  align-items: center;
+  /* margin-top: -1.5vw; */
+}
+
+.google {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.google img {
+  height: 50%;
+  width: 50%;
+    margin-top: 1vw;
+
+}
+
+.signup-left {
+  width: 27vw;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  /* padding: 1.5vw; */
+  box-sizing: border-box;
+  position: relative;
+}
+
+.signup-left h2 {
+  font-size: 2.2vw;
+  font-weight: 400;
+  color: #1e1e7a;
+  margin-bottom: 1vw;
+  margin-top: -10vw;
+  margin-left: -1vw;
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.success-message {
+  color: #fff;
+  font-weight: 600;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.signup-left h3 {
+  position: relative;
+  margin-left: -1vw;
+  font-size: 1.5vw;
+  font-weight: 300;
+  margin-top: 1vw;
+  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Calibri', sans-serif; */
+  text-align: center;
+}
+
+
+.star-text {
+  color: #c62828;
+  /* red */
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+}
+
+.stares {
+  margin-top: -10vw;
+  position: absolute;
+  margin-left: 7vw;
+}
+
+.image6 {
+  width: 1.5vw;
+  transform: translate(0.5vw, -1.7vw);
+}
+
+.image5 {
+  width: 2vw;
+}
+
+@media (max-width: 768px) {
+  .login-wrapper {
+    flex-direction: column;
+    /* max-height: 100vh; */
+    /* height: auto; */
+    /* width: 100vw; */
+    height: 90vh;
+    width: auto;
+  }
+
+  .login-box {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    /* height: 90vh; */
+    margin-left: 0vw;
+
+  }
+
+  .signup-left h2 {
+    display: none;
+  }
+
+  .stares {
+    display: none;
+  }
+
+
+  .signup-right h2 {
+    font-size: 6vw;
+    text-align: center;
+    margin: 4vw 0;
+  }
+
+  .cartoon-touch {
+    /* width: 30vw;
+    margin-top: 5vw;
+    margin-left: 0;
+    position: relative; */
+    display: none;
+  }
+
+  .image1 {
+    display: none;
+  }
+
+  .image_3 {
+    /* width: 50vw;
+    margin-top: 10vw;
+    margin-left: 0;
+    position: relative; */
+    display: none;
+  }
+
+  .text-bubble {
+    padding: 4vw;
+    border-radius: 4vw;
+    width: 90vw;
+  }
+
+
+  .signup-right p {
+    color: #fff;
+    font-size: 4vw;
+  }
+
+  .text-bubble p {
+    font-size: 4vw;
+    width: 100%;
+  }
+
+  .form-group {
+    margin-bottom: 2vw;
+  }
+
+  .signup-left h3 {
+    display: none;
+  }
+
+  .form-group label {
+    font-size: 4vw;
+  }
+
+  .form-group input {
+    font-size: 4vw;
+    padding: 5vw 3vw;
+    border-radius: 2vw;
+  }
+.heading{
+  margin-bottom: 3vw;
+}
+  .heading h2 {
+    font-size: 4.5vw;
+  }
+
+  .para {
+    font-size: 2vw;
+    align-items: center;
+  }
+
+  .toggle-password {
+    font-size: 6vw;
+    right: 3vw;
+  }
+
+  .btn-Sinup {
+    font-size: 4vw;
+    padding: 0vw 2vw;
+    border-radius: 2vw;
+    height: 10vw;
+  }
+
+  .google {
+    font-size: 8vw;
+    cursor: pointer;
+  }
+
+
+  .logeimage {
+    width: 35vw;
+    height: 15vw;
+  }
+
+  .signup-right {
+    padding: 5vw;
+    /* height: 130vw; */
+    height: auto;
+    border-radius: 4vw;
+    /* margin-top: 10vw; */
+    width: 80vw;
+    /* margin-bottom: 26vw; */
+    /* margin-left: -7vw; */
+
+  }
+
+  .error-message2 {
+    font-size: 3vw;
+
+  }
+
+  .succesMsg_signup {
+    font-size: 3vw;
+    /* margin-top: -1vw; */
+  }
+}

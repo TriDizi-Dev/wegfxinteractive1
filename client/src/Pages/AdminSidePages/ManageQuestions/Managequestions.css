@@ -1,0 +1,183 @@
+.Question_Main_container {
+  padding: 2rem;
+  background-color: #f4f1fb;
+  min-height: 88vh;
+  /* font-family: "Segoe UI", sans-serif; */
+}
+
+/* Desktop Table View */
+.MuiDataGrid-root {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 5px 18px rgba(0, 0, 0, 0.05);
+}
+
+.MuiDataGrid-columnHeaders {
+  background-color: #937cb4 !important;
+  color: white !important;
+  font-weight: bold;
+  font-size: 14px;
+  border-radius: 8px 8px 0 0;
+}
+
+.MuiDataGrid-cell {
+  font-size: 13px;
+}
+
+.MuiDataGrid-footerContainer {
+  background-color: #f1eef6;
+}
+
+.MuiIconButton-root:hover {
+  background-color: #f3eaff;
+  transform: scale(1.05);
+  transition: 0.2s ease-in-out;
+}
+
+.super-app-theme--header {
+  background-color: #937cb4 !important;
+  color: #ffffff !important;
+  font-weight: bold;
+  font-size: 14px;
+  border: none !important;
+}
+
+.manage-title {
+  color: #4b3c69;
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+/* 🔹 Category Count Container */
+.category-count-container {
+  padding: 1.8rem 1.5rem;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 92%;
+}
+
+/* 🔹 Title for the Count Section */
+.category-count-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #4b3c69;
+  margin-bottom: 0.8rem;
+  position: relative;
+}
+
+.Catogory_Selection_main {
+  padding: 4px 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  position: absolute;
+  top: 1.5vw;
+  left: 0;
+  cursor: pointer;
+  outline: none;
+}
+
+/* 🔹 Each Category Count Item */
+.category-count-item {
+  display: inline-block;
+  margin-right: 1.2rem;
+  font-size: 14px;
+  color: #333;
+  background-color: #f3eaff;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+/* ✅ Mobile Responsive Enhancements */
+@media (max-width: 768px) {
+  .Question_Main_container {
+    padding: 1rem;
+  }
+
+  .MuiDataGrid-root {
+    font-size: 12px;
+  }
+
+  .MuiDataGrid-columnHeaders {
+    font-size: 13px;
+  }
+
+  .MuiDataGrid-cell {
+    font-size: 12px;
+    word-break: break-word;
+  }
+
+  .MuiDataGrid-virtualScroller {
+    overflow-x: auto;
+  }
+
+  .MuiDataGrid-columnHeaderTitle {
+    white-space: normal !important;
+    line-height: 1.2;
+  }
+
+  .MuiDataGrid-toolbarContainer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .category-count-container {
+    padding: 0.8rem 1rem;
+    flex-direction: column;
+  }
+
+  .category-count-item {
+    font-size: 13px;
+    margin-right: 1rem;
+    padding: 0.3rem 0.7rem;
+  }
+
+  .Catogory_Selection_main {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-bottom: 2vw;
+  }
+}
+
+@media (max-width: 480px) {
+  .Question_Main_container {
+    padding: 0.8rem;
+  }
+
+  .MuiDataGrid-root {
+    font-size: 11.5px;
+  }
+
+  .MuiDataGrid-columnHeaders {
+    font-size: 12.5px;
+  }
+
+  .MuiDataGrid-cell {
+    font-size: 11.5px;
+  }
+
+  .MuiDataGrid-footerContainer {
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 11px;
+  }
+
+  .category-count-title {
+    font-size: 1rem;
+  }
+
+  .category-count-item {
+    font-size: 12px;
+    margin-right: 0.8rem;
+    margin-bottom: 0.4rem;
+    display: inline-block;
+  }
+}

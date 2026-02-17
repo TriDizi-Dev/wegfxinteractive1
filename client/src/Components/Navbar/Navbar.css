@@ -1,0 +1,132 @@
+.quiz-user-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+}
+
+.quiz-user-info span {
+    font-size: 1.4vw;
+    font-family: 'Calibri', sans-serif;
+    color: #000000;
+    font-weight: 600;
+    margin-top: -.5vw;
+}
+
+.user-avatar {
+    font-size: 2.7vw !important;
+    color: #10699c;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #ffffff;
+    margin-right: .3vw;
+}
+
+.Main_NavBar_Css {
+    width: 98.5%;
+    display: flex;
+    align-items: center;
+    /* align-items: flex-start; */
+    justify-content: space-between;
+    margin-top: .5vw;
+    margin: 0 auto;
+}
+
+.Main_Logo_Image {
+    width: 8.5vw;
+    height: 5vw;
+}
+
+.Main_Logo_Image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.logout-popup {
+    position: absolute;
+    top: 4.3vw;
+    right: 0;
+    border-radius: 6px;
+    z-index: 1000;
+    padding: 8px 16px;
+}
+
+.logout-popup button {
+    background-color: #06416a;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logout-popup button:hover {
+    background-color: #06416a;
+}
+
+.back-arrow-btn {
+    margin-top: 0px;
+    padding: 6px 12px;
+    font-size: 14px;
+    background-color: #ffff;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    position: relative;
+    z-index: 1000;
+    margin-left: .5vw;
+    width: fit-content;
+    font-family: 'Poppins', sans-serif;
+}
+
+.back-arrow-btn:hover {
+    background-color: #f0f0f0;
+}
+
+@media screen and (max-width: 768px) {
+    .Main_Logo_Image {
+        width: 22vw;
+        height: 15vw;
+    }
+
+    .quiz-user-info span {
+        font-size: 5vw;
+        margin-top: -1vw;
+    }
+
+    .user-avatar {
+        font-size: 8vw !important;
+    }
+
+    .pie-chart-section {
+        margin: -14vw 0vw;
+    }
+
+    .logout-popup {
+        top: 13vw;
+        right: -2.8vw;
+    }
+
+    .logout-popup button {
+        font-size: 2.5vw;
+        /* margin-top: 7vw; */
+    }
+
+    .back-arrow-btn {
+        margin-top: -2px;
+        padding: 3px 6px;
+        font-size: 4vw;
+        background-color: #ffff;
+        color: #333;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: background-color 0.2s ease;
+        font-family: 'Poppins', sans-serif;
+    }
+
+}

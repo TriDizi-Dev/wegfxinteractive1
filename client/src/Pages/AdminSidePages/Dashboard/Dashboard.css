@@ -1,0 +1,91 @@
+/* ✅ Clean Soft Background */
+.dashboard-wrapper {
+  min-height: 92vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f6fb; /* soft light blue-gray */
+  padding: 20px;
+}
+
+/* ✅ White Card Container */
+.dashboard-container {
+  background-color: #ffffff;
+  padding: 40px 30px;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 420px;
+  text-align: center;
+  color: #2c2c2c;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+/* ✅ Heading */
+.dashboard-container h2 {
+  margin-bottom: 30px;
+  font-size: 26px;
+  font-weight: 700;
+  color: #4b42b5; /* deep soft purple */
+}
+
+/* ✅ Admin Email Text */
+.admin-email {
+  font-size: 0.95rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* ✅ Buttons Layout */
+.dashboard-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* ✅ Shared Button Style */
+.btn {
+  padding: 14px;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.07);
+}
+
+/* ✅ Primary Buttons */
+.dashboard-btn {
+  background: linear-gradient(to right, #6b5cff, #a78bfa);
+  color: #fff;
+}
+
+.dashboard-btn:hover {
+  background: linear-gradient(to right, #5a4dd1, #9474f2);
+}
+
+/* ✅ Logout Button */
+.logout-btn {
+  background-color: #e0e0e0;
+  color: #333;
+}
+
+.logout-btn:hover {
+  background-color: #d0d0d0;
+}
+
+/* ✅ Responsive Mobile Styles */
+@media (max-width: 480px) {
+  .dashboard-container {
+    padding: 30px 20px;
+  }
+
+  .btn {
+    font-size: 15px;
+    padding: 12px;
+  }
+
+  .dashboard-container h2 {
+    font-size: 22px;
+  }
+}

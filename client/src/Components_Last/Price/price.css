@@ -1,0 +1,555 @@
+.cost {
+  width: 95vw;
+  max-width: 100vw;
+  padding: 1.67vw;
+  /* 20px */
+  box-sizing: border-box;
+  /* height: 34vw; */
+  /* border: 2px solid; */
+  /* overflow: auto; */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 4.17vw;
+}
+
+.company-logo p {
+  font-size: 1.17vw;
+  color: #666;
+  margin: 0;
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+  gap: 0.83vw;
+}
+
+.user-profile span {
+  font-weight: bold;
+  color: #333;
+}
+
+.avatar {
+  width: 2.5vw;
+  height: 2.5vw;
+  background-color: #9932cc;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.5vw;
+}
+
+.main-content {
+  text-align: center;
+  transform: translate(0vw, -3vw);
+  height: 79vh;
+}
+
+.main-title {
+  /* font-family: 'Georgia', serif; */
+  font-size: 6.67vw;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 1.67vw;
+}
+
+.logo1 {
+  height: 5vw;
+  width: fit-content;
+  /* margin-right: 15vw; */
+}
+
+
+.section-heading {
+  font-size: 1.3vw;
+  font-family: 'Poppins', sans-serif;
+  color: #000;
+  text-align: left;
+  font-weight: 800;
+  /* margin-bottom: 3.33vw; */
+  /* padding-left: 14vw; */
+}
+
+.foundation-text {
+  color: #dc3545;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  font-size: 1.5vw;
+  /* font-family: 'Times New Roman', Times, serif; Or use Georgia */
+}
+
+.foundation-text span {
+  font-size: 1.5vw;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: normal;
+  color: black;
+}
+
+.content-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4vw;
+}
+
+.image-section {
+  /* flex-shrink: 0; */
+}
+
+.payment-illustration {
+  height: 28vw;
+  display: block;
+  margin-top: -3vw;
+}
+
+
+
+.pricing-plans {
+  display: flex;
+  gap: 1.67vw;
+  margin-top: -1vw;
+  /* margin-bottom: 2.5vw; */
+  flex-wrap: wrap;
+  justify-content: center;
+  /* margin-left: 9vw; */
+}
+
+.price-card {
+  width: 11vw;
+  height: 10vw;
+  border-radius: 2.25vw;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.25vw;
+  box-sizing: border-box;
+  box-shadow: 0 0.42vw 1.25vw rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.price-card:hover {
+  transform: translateY(-0.32vw);
+}
+
+.plan-label {
+  font-size: 1.1vw;
+  margin-bottom: 0.42vw;
+  font-weight: 600;
+  opacity: 0.8;
+  font-family: 'Poppins', sans-serif;
+  color: #000000dd;
+
+}
+
+.plan-name {
+  font-size: 1.5vw;
+  font-family: 'Calibri', sans-serif;
+  margin-top: 0;
+  margin-bottom: -.5vw;
+  font-weight: bold;
+}
+
+.price {
+  font-size: 1.33vw;
+  margin-bottom: 0.42vw;
+}
+
+.price-value {
+  font-size: 2.2vw;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+}
+
+.Wrong_Price {
+  font-size: 1.7vw;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: -.5vw;
+}
+
+.Wrong_Price span {
+  text-decoration: line-through;
+}
+
+.duration {
+  font-size: 1.23vw;
+  margin-top: 0.42vw;
+  font-family: 'Poppins', sans-serif;
+
+}
+.FinalPrice {
+  font-size: .8vw;
+  font-family: 'Poppins', sans-serif;
+margin: 0;
+}
+
+.trial-pack {
+  background-color: #c80000;
+  color: white;
+  border-radius: 1.5vw;
+  text-align: center;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  gap: .1vw;
+}
+
+.recommended {
+  background-color: #0073cf;
+  color: white;
+  border-radius: 1.5vw;
+  text-align: center;
+  Font-weight: bold;
+}
+
+.super-saver {
+  background-color: #002855;
+  color: white;
+  border-radius: 1.5vw;
+  text-align: center;
+  Font-weight: bold;
+}
+
+
+.flexible-options-text {
+  font-size: 1.2vw;
+  color: #000;
+  margin-bottom: 1.25vw;
+  margin-left: 25vw;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.payment-options {
+  /* list-style: none; */
+  text-align: left;
+  margin: 0;
+  margin-left: 5px;
+  margin-top: .8vw;
+  font-family: 'Poppins', sans-serif;
+
+
+}
+
+.Benifits_text {
+  text-align: left;
+  margin: 0;
+  margin-left: 5px;
+  margin-top: .1vw;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+font-size: 1.5vw;
+}
+
+.payment-options p {
+  font-size: 1vw;
+  color: #000;
+  margin: 0;
+  margin-bottom: 0.67vw;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+  padding-left: 1vw;
+}
+.payment-options p::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.3em; /* vertically centers the bullet with the text */
+  height: .5vw;
+  width: .5vw;
+  border-radius: 50%;
+  background-color: #000;
+}
+
+.Price_Card_and_title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Coupon_Container {
+  text-align: left;
+  margin-left: .4vw;
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+  margin-top: .5vw;
+}
+
+.Apply_Coupon_btn {
+  font-size: 1vw;
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+  width: fit-content;
+  padding: .5vw 1vw;
+  border-radius: .5vw;
+  background-color: #06416A;
+  color: #ffffff;
+}
+
+.coupon-popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.coupon-popup {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.coupon-popup h3 {
+  font-size: 25px;
+  color: #05203e;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.coupon-popup input {
+  width: 80%;
+  padding: 8px;
+  margin: 10px 0;
+  outline: none;
+  border-radius: .5vw;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+
+}
+
+.coupon-popup button {
+  margin: 5px;
+  padding: 8px 12px;
+  cursor: pointer;
+  background-color: #06416A;
+  color: #ffff;
+  border: none;
+  border-radius: .5vw;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.success {
+  color: green;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+}
+
+.error {
+  color: red;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+}
+
+
+@media (max-width: 768px) {
+
+
+  .cost {
+    height: fit-content;
+  }
+
+  .main-title {
+    font-size: 8vw;
+  }
+
+  .main-content {
+    margin-top: 10vw;
+  }
+
+  .section-heading {
+    font-size: 3.5vw;
+    margin-bottom: 2vw;
+    margin-top: -2vw;
+    text-align: center;
+    /* margin-left: -11vw; */
+  }
+
+  .foundation-text {
+    font-size: 5vw;
+  }
+
+  .foundation-text span {
+    font-size: 6vw;
+  }
+
+  .pricing-plans {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+    gap: 1vw;
+  }
+
+  .price-card {
+    width: 90vw;
+    height: 30vw;
+    padding: 1vw;
+    /* font-size: 4vw; */
+    border-radius: 4vw;
+  }
+
+  .plan-name,
+  .price,
+  .price-value {
+    font-size: 8vw;
+    margin-top: 1vw;
+  }
+
+  .plan-label {
+    font-size: 5vw;
+  }
+
+  .duration {
+    font-size: 5vw;
+  }
+  .FinalPrice{
+    font-size: 4vw;
+  }
+
+  .flexible-options-text {
+    font-size: 6vw;
+    text-align: center;
+    margin-left: 0;
+    margin-bottom: 4vw;
+  }
+
+  .payment-options li {
+    font-size: 5vw;
+    margin-bottom: 2vw;
+  }
+  .payment-options{
+    margin-top: 3vw;
+  }
+  .payment-options p {
+  font-size: 4.5vw;
+padding-left: 5vw;
+}
+.payment-options p::before {
+
+  left: .5vw;
+  top: 0.3em; /* vertically centers the bullet with the text */
+  height: 2vw;
+  width: 2vw;
+  border-radius: 50%;
+  background-color: #000;
+}
+
+  .avatar {
+    width: 6vw;
+    height: 6vw;
+    font-size: 4vw;
+  }
+
+  .user-profile span {
+    font-size: 4vw;
+  }
+
+  .image-section {
+    display: none;
+  }
+
+  .company-logo p {
+    font-size: 3.5vw;
+  }
+
+  .payment-illustration {
+    height: auto;
+    width: 80vw;
+    margin: 0 auto;
+  }
+
+  .content-area {
+    flex-direction: column;
+    gap: 6vw;
+    margin-top: 6vw;
+  }
+
+  .logo1 {
+    height: 15vw;
+    width: 30vw;
+    transform: translate(0vw, -2vw);
+    margin-top: 1vw;
+    /* margin-left: 10vw; */
+  }
+
+  .Wrong_Price {
+    font-size: 5.5vw;
+    margin-bottom: 0vw;
+  }
+
+  .Benifits_text {
+    margin-left: 2vw;
+    font-size: 5vw;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .Apply_Coupon_btn {
+    font-size: 4vw;
+    padding: 1vw 2vw;
+    border-radius: 1vw;
+    background-color: #06416A;
+  }
+ 
+}
+
+.loader-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.9);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.loader {
+  border: 6px solid #f3f3f3;
+  border-top: 6px solid #4f46e5; /* nice indigo color */
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spin 1s linear infinite;
+}
+
+.loader-text {
+  margin-top: 15px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #333;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
