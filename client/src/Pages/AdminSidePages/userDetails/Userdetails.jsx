@@ -89,8 +89,13 @@ console.log(Object.entries(users),"fhfghvbnv");
       <h1 className="admin-title">Total users : {Object.entries(users).length-1}</h1>
 
       {Object.entries(users)
-        .filter(([uid]) => uid !== auth.currentUser?.uid)
-        .map(([uid, user]) => (
+      .filter(([uid]) => uid !== auth.currentUser?.uid)
+      .sort(([, a], [, b]) => {
+        const dateA = a?.plan?.startTime || 0;
+        const dateB = b?.plan?.startTime || 0;
+        return dateB - dateA; 
+      })
+      .map(([uid, user]) => (
           <div key={uid} className="user-card">
             <div className="User_firstDetails">
                <h2 className="user-email" title={user.email}>
@@ -145,49 +150,6 @@ console.log(Object.entries(users),"fhfghvbnv");
               </div>
             </div>
 
-            {/* <div className="quiz-section">
-              <h3>📊 Quiz Results:</h3>
-              {user.quizResults ? (
-                Object.entries(user.quizResults).map(([category, attempts]) => (
-                  <div key={category} className="quiz-category-block">
-                    <p className="quiz-category">📚 {category}</p>
-                    <ul>
-                      {Object.entries(attempts).map(([attemptId, result]) => (
-                        <li key={attemptId}>
-                          <strong>
-                            {moment(result.date).format("DD MMM YYYY, h:mm A")}
-                          </strong>{" "}
-                          — ✅ {result.correctAnswers} /{" "}
-                          {result.totalQuestions} correct, ❌{" "}
-                          {result.wrongAnswers} wrong, 🧮 Total Score:{" "}
-                          {result.correctAnswers * 10}
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                ))
-              ) : (
-                <p>No quiz results found.</p>
-              )}
-            </div> */}
-
-            {/* <div className="quiz-section">
-              <h3>📝 Attempted Questions:</h3>
-              {user.attemptedQuestions ? (
-                Object.entries(user.attemptedQuestions).map(
-                  ([category, questions]) => (
-                    <p key={category}>
-                      📁 <strong>{category}:</strong>{" "}
-                      {Object.keys(questions).length} questions attempted
-                    </p>
-                  )
-                )
-              ) : (
-                <p>No questions attempted.</p>
-              )}
-            </div> */}
-
-            {/* ✅ Delete button */}
             <button className="delete-btn" onClick={() => handleDeleteUser(uid)}>
               🗑️ Delete User
             </button>

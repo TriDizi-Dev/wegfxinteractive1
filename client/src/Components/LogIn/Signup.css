@@ -15,8 +15,9 @@
 }
 
 .logeimage {
-   width: fit-content;
+  width: auto;
   height: 4vw;
+  display: block;
 }
 
 .signup {

@@ -72,7 +72,7 @@ const handleProceed = async (planType) => {
   let amount;
   switch (planType) {
     case "starter":
-      amount = 9;
+      amount = 49;
       break;
     case "pro":
       amount = 199;
@@ -230,12 +230,9 @@ if (amount === 0) {
                     <p className="price">
                       {" "}
                      <span className="price-value">
-                      <p className="Wrong_Price1">
-                      ₹ <span>49</span>
-                    </p>
   {(couponStatus === "valid" && CouponDetails?.category === "Trial") 
-    ? `₹ ${Math.floor(9 - (9 * Discount) / 100)}` 
-    : "₹ 9"}
+    ? `₹ ${Math.floor(49 - (49 * Discount) / 100)}` 
+    : "₹ 49"}
 </span>
                     </p>
                     <p className="duration">1 Week</p>
