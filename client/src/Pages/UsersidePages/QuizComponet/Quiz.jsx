@@ -15,8 +15,8 @@ import Foundation from "../../../assets/AllWebpAssets/Asset5.webp";
 import Explosive from "../../../assets/AllWebpAssets/Asset6.webp";
 import FutureReaady from "../../../assets/AllWebpAssets/Asset7.webp";
 import congrates from "../../../assets/AllWebpAssets/Asset16.webp";
-import Correct from "../../../assets/AllWebpAssets/Correct_Answer.wav";
-import Wrong from "../../../assets/AllWebpAssets/wrong_answer.wav";
+import Correct from "../../../assets/AllWebpAssets/correct_answer.mp3";
+import Wrong from "../../../assets/AllWebpAssets/wrong_answer.mp3";
 
 const QuizComponent = () => {
   const { currentUser, loading: authLoading } = useAuth();
