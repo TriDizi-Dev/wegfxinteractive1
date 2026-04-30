@@ -91,9 +91,9 @@ console.log(Object.entries(users),"fhfghvbnv");
       {Object.entries(users)
       .filter(([uid]) => uid !== auth.currentUser?.uid)
       .sort(([, a], [, b]) => {
-        const dateA = a?.plan?.startTime || 0;
-        const dateB = b?.plan?.startTime || 0;
-        return dateB - dateA; 
+        const dateA = a?.createdAt || 0;
+        const dateB = b?.createdAt || 0;
+        return dateB - dateA;
       })
       .map(([uid, user]) => (
           <div key={uid} className="user-card">
